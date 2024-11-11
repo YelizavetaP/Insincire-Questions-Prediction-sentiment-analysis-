@@ -1,7 +1,7 @@
 ### Project Description: Quora Insincere Questions Classification
 
 #### 1. Statement of the Problem
-The primary task is to identify which content is toxic in order to improve online communication on the Quora platform. . 
+The primary task is to identify which content is toxic in order to improve online communication on the Quora platform
 
 #### 2. Sources and Description of Data
 The dataset used for this project is sourced from the Kaggle competition titled "Quora Insincere Questions Classification." The dataset can be accessed [here](https://www.kaggle.com/c/quora-insincere-questions-classification).
@@ -20,7 +20,7 @@ The dataset contains approximately 130,612 rows.
 #### 3. Approach to the Solution
 The methodology for solving the classification task involves several key steps:
 
-- **Data Preprocessing**: This includes text normalization techniques such as tokenization, removal of stop words, and stemming to prepare the text for analysis.
+- **Data Preprocessing**: Includes text normalization techniques such as `tokenization`, `removal of stop words`, and `stemming` to prepare the text for analysis.
   
 - **Feature Extraction**: The Bag of Words (`BoW`) model and Term Frequency-Inverse Document Frequency (`TF-IDF`) model are employed to convert the text data into numerical vectors suitable for machine learning.
 
@@ -44,6 +44,3 @@ The confusion matrix shows that while the model performs well in identifying sin
 - Experiment with advanced models such as deep learning approaches (e.g., LSTM, BERT) to capture more complex patterns in the text.
 - Implement cross-validation to ensure the model's robustness and generalizability across different subsets of the data.
 - Consider augmenting the dataset with additional sources of insincere content to improve model training.
-
-**Next Steps**:
-- Deploy the model in a real-time system to classify incoming questions.
